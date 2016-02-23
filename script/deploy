@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh CLZ@172.16.2.154 <<EOF
+ssh CLZ@172.16.2.154 -p 443 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
