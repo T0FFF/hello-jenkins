@@ -1,0 +1,11 @@
+#!/bin/sh
+ 
+echo "To do"
+
+#ssh CLZ@172.16.2.154 -p 443 <<EOF
+#  cd ~/hello-jenkins
+#  git pull
+#  npm install --production
+#  forever restartall
+#  exit
+#EOF
